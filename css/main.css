@@ -471,19 +471,10 @@
   margin-top: 2rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   .home footer {
     -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
     transform: rotate(90deg) translate(-3rem, -5rem);
-  }
-  .home .social-icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
   }
 }
 
