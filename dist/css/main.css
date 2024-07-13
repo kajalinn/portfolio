@@ -264,12 +264,25 @@
 }
 
 .about .jobs__job h6 {
-  margin: 0.5rem 0;
-  font-size: 16px;
+  margin: 0.3rem 0;
+  font-size: 1rem;
 }
 
 .about .jobs__job p {
-  line-height: 1.2;
+  padding: 0.25rem 0;
+}
+
+.about .jobs__job ul {
+  margin-left: 0.75rem;
+  padding: 0.25rem;
+}
+
+.about .jobs__job ul li {
+  margin: 0.5rem 0;
+}
+
+.about .jobs__job .university-topics {
+  text-decoration: underline;
 }
 
 .about .social-icons {
