@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Apply styles immediately on page load
   updateStyles();
 
   window.addEventListener("scroll", function () {

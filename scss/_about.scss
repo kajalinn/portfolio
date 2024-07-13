@@ -4,13 +4,7 @@
   &__bio-image {
     height: 50vh;
     width: 100%;
-    background: 
-      linear-gradient(
-        to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
-      ),
-      url('../img/ADS_5497.jpg') center top;
+    background-color: $primary-color;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -48,6 +42,20 @@
       }
       h6 {
         margin: 0.3rem 0;
+        font-size: 1rem;
+      }
+      p {
+        padding: 0.25rem 0;
+      }
+      .university-topics {
+        text-decoration: underline;
+      }
+      ul {
+        margin-left: 0.75rem;
+        padding: 0.25rem;
+      }
+      ul li{
+        margin: 0.5rem 0;
       }
     }
   }
